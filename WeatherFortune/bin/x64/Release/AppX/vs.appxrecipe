@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TYLER-PC</Machine>
+    <WindowsUser>Tyler</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>49e34145-a436-41c8-8917-ec4ca390d68f</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\obj\x64\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>64CEA13E0787EBD350535D6040610019E7F23FF093E02437F97AF0B5103C64B0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>49e34145-a436-41c8-8917-ec4ca390d68f_1.0.0.0_x64__t4c8gy7px9yc2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>49e34145-a436-41c8-8917-ec4ca390d68f_t4c8gy7px9yc2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>49e34145-a436-41c8-8917-ec4ca390d68f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Tyler</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-05T03:29:25.109</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2016-02-01T00:37:55.835</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-10-11T03:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T03:10:28.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T03:06:55.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2015-10-11T03:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-11T03:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-11T03:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T03:00:23.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-11T03:09:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\WeatherFortune150x150.scale-100.png">
+      <PackagePath>Assets\WeatherFortune150x150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T01:11:20.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\WeatherFortune150x150.scale-200.png">
+      <PackagePath>Assets\WeatherFortune150x150.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T01:10:00.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-02-04T03:03:15.685</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\ClrCompression.dll">
+      <PackagePath>ClrCompression.dll</PackagePath>
+      <Modified>2016-01-31T07:36:47.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\01d.png">
+      <PackagePath>Icon\01d.png</PackagePath>
+      <Modified>2016-02-01T06:55:31.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\01n.png">
+      <PackagePath>Icon\01n.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\02d.png">
+      <PackagePath>Icon\02d.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\02n.png">
+      <PackagePath>Icon\02n.png</PackagePath>
+      <Modified>2016-02-01T21:49:58.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\03d.png">
+      <PackagePath>Icon\03d.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\03n.png">
+      <PackagePath>Icon\03n.png</PackagePath>
+      <Modified>2016-02-01T21:49:58.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\04d.png">
+      <PackagePath>Icon\04d.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\04n.png">
+      <PackagePath>Icon\04n.png</PackagePath>
+      <Modified>2016-02-01T21:49:58.310</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\09d.png">
+      <PackagePath>Icon\09d.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\09n.png">
+      <PackagePath>Icon\09n.png</PackagePath>
+      <Modified>2016-02-01T21:39:15.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\10d.png">
+      <PackagePath>Icon\10d.png</PackagePath>
+      <Modified>2016-02-01T06:55:32.011</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\10n.png">
+      <PackagePath>Icon\10n.png</PackagePath>
+      <Modified>2016-02-01T21:39:15.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\11d.png">
+      <PackagePath>Icon\11d.png</PackagePath>
+      <Modified>2016-02-01T06:55:31.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\11n.png">
+      <PackagePath>Icon\11n.png</PackagePath>
+      <Modified>2016-02-01T06:55:31.916</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\13d.png">
+      <PackagePath>Icon\13d.png</PackagePath>
+      <Modified>2016-02-01T21:51:39.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\13n.png">
+      <PackagePath>Icon\13n.png</PackagePath>
+      <Modified>2016-02-01T21:51:39.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\50d.png">
+      <PackagePath>Icon\50d.png</PackagePath>
+      <Modified>2016-02-01T21:53:03.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\Icon\50n.png">
+      <PackagePath>Icon\50n.png</PackagePath>
+      <Modified>2016-02-01T21:53:03.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-02-05T03:28:19.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\WeatherFortune.dll">
+      <PackagePath>WeatherFortune.dll</PackagePath>
+      <Modified>2016-02-05T03:29:24.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\WeatherFortune.exe">
+      <PackagePath>WeatherFortune.exe</PackagePath>
+      <Modified>2016-02-05T03:29:25.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\_Resources\0.rsrc">
+      <PackagePath>_Resources\0.rsrc</PackagePath>
+      <Modified>2016-02-05T03:28:59.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Tyler\documents\visual studio 2015\Projects\WeatherFortune\WeatherFortune\bin\x64\Release\ilc\_Resources\index.txt">
+      <PackagePath>_Resources\index.txt</PackagePath>
+      <Modified>2016-02-05T03:28:59.869</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\arm\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x64\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\">
+      <Name>Microsoft.NET.Native.Framework.1.2</Name>
+      <Version>1.2.23231.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.1.2, MinVersion = 1.2.23231.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.2\1.2\.\x86\ret\Native\Microsoft.NET.Native.Framework.1.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\ARM\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x64\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\">
+      <Name>Microsoft.NET.Native.Runtime.1.1</Name>
+      <Version>1.1.23406.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.1.1, MinVersion = 1.1.23406.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Runtime.1.1\1.1\.\AppX\x86\Microsoft.NET.Native.Runtime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.22929.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.22929.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

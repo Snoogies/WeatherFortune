@@ -1,0 +1,73 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherFortune"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:System="using:System"
+    xmlns:Globalization="using:Windows.Globalization"
+    xmlns:Model="using:WeatherFortune.Model"
+    x:Class="WeatherFortune.MainPage"
+    mc:Ignorable="d" Loaded="App_Load">
+
+    <StackPanel x:Name="spMain" Opacity="0.75" BorderThickness="0,0,0,15" HorizontalAlignment="Stretch">
+        <StackPanel.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF1F2A4D"/>
+                <GradientStop Color="White" Offset="1"/>
+                <GradientStop Color="#FF6588FD" Offset="0.673"/>
+            </LinearGradientBrush>
+        </StackPanel.Background>
+        <Grid HorizontalAlignment="Right">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions> 
+            <RelativePanel HorizontalAlignment="Right" Grid.Row="0">
+                <Button x:Name="bHome" HorizontalAlignment="Right" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="25" Click="bHome_Click" Foreground="#FF817F7F"></Button>
+            </RelativePanel>
+            <SplitView Grid.Row="1" x:Name="svSplit" DisplayMode="CompactOverlay" OpenPaneLength="100" CompactPaneLength="0" HorizontalAlignment="Right" PanePlacement="Right">
+                <SplitView.Pane>
+                    <ListBox SelectionMode="Single" x:Name="lbMenu" SelectionChanged="lbMenu_SelectionChanged">
+                        <ListBoxItem>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" CornerRadius="5">
+                                <TextBlock Text="Refresh" FontSize="20"></TextBlock>
+                            </StackPanel>
+                        </ListBoxItem>
+                    </ListBox>
+                </SplitView.Pane>
+            </SplitView>
+        </Grid>
+        <Grid VerticalAlignment="Top">
+            <TextBlock x:Name="tbLocation" Grid.Column="0" TextWrapping="Wrap" FontSize="50" FontWeight="Bold" Margin="10,10,0,0" HorizontalAlignment="Left" Opacity="0.75" VerticalAlignment="Top" Foreground="White" RequestedTheme="Light" Padding="0" />
+            <TextBlock x:Name="tbTime" Grid.Column="0" TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Right" Opacity="0.75" RequestedTheme="Dark" VerticalAlignment="Center" Foreground="White" Margin="0,10,10,0" />
+        </Grid>
+        <StackPanel Margin="0,50,0,0">
+            <Grid VerticalAlignment="Stretch" BorderThickness="0,50,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="3*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <Image Grid.Row="0" Grid.Column="0" x:Name="iWeatherImage" Width="50" Height="50" HorizontalAlignment="Right" Margin="0,0,10,0" />
+                    <TextBlock Grid.Row="0" Grid.Column="1" x:Name="tbTemp" TextWrapping="NoWrap" FontSize="125" HorizontalAlignment="Center" />
+                    <TextBlock Grid.Column="2" VerticalAlignment="Top" x:Name="tbMinTemp" FontSize="20" Margin="0,10,0,0" />
+                    <TextBlock Grid.Column="2" VerticalAlignment="Top" x:Name="tbMin" FontSize="15" />
+                    <TextBlock Grid.Column="2" VerticalAlignment="Bottom" x:Name="tbMax" FontSize="15" />
+                    <TextBlock Grid.Column="2" VerticalAlignment="Bottom" x:Name="tbMaxTemp" FontSize="20" Margin="0,0,0,10" />
+                </Grid>                
+            </Grid>
+            <TextBlock x:Name="tbDescription" TextWrapping="Wrap" FontSize="36" HorizontalAlignment="Center" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Background="#FFF7F7F7" BorderThickness="10,10,10,0" CornerRadius="15" Opacity="0.75" Margin="0,100,0,0">
+            <ListView HorizontalAlignment="Stretch" x:Name="lvForecast">
+            </ListView> 
+        </StackPanel>
+    </StackPanel>
+</Page>
